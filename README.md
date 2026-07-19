@@ -1,4 +1,4 @@
-# Traditional vs. Socratic AI Chatbot Tutoring for Learning Object-Oriented Programming
+# Traditional vs. Socratic: How Chatbot Interaction Strategies Shape Self-Directed Learning?
 
 ## Repository structure
 
@@ -10,6 +10,7 @@
 │   ├── README.md                      # data dictionary, coding notes, and known caveats
 │   ├── experiment_config.yaml         # Searchat Behavior platform export (consent form, pre-questionnaire,
 │   │                                   #   immediate post-test, task descriptions, Socratic system prompt)
+│   ├── assessments.md                 # immediate post-test and delayed retention test: items, rubric, correspondence
 │   ├── participants_consolidated.csv  # one row per participant: demographics, prior-knowledge Likert
 │   │                                   #   ratings, open-ended UX answers, test scores, interaction metrics
 │   ├── session_transcripts_coded.csv  # turn-by-turn session transcripts with qualitative coding
@@ -49,22 +50,3 @@ Thiago José Lopes, Yeshuá Silveira de Souza Siqueira, Jairo Francisco de
 Souza, Marcelo de Oliveira Costa Machado
 
 LApIC, Universidade Federal de Juiz de Fora (UFJF), Brazil
-
-## License
-
-Not yet finalized in this repository. The suggested licensing split is code
-(`analysis/`) under the **MIT License**, and data/instruments
-(`data/`, `prompt.md`) under **CC BY 4.0**, pending confirmation by the
-authors.
-
-## Citation
-
-```bibtex
-@inproceedings{TODO_SBIE2026,
-  title     = {TODO: paper title},
-  author    = {Lopes, Thiago José and Siqueira, Yeshuá Silveira de Souza and Souza, Jairo Francisco de and Machado, Marcelo de Oliveira Costa},
-  booktitle = {Anais do Simpósio Brasileiro de Informática na Educação (SBIE)},
-  year      = {2026},
-  note      = {To be added upon publication in the SBIE 2026 proceedings.}
-}
-```

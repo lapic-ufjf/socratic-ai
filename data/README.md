@@ -25,17 +25,33 @@ platform. Includes:
   titled `(S) Herança, Polimorfismo e Classes Abstratas`.
 
 The **delayed retention test is not included in this file** — only the
-pre-questionnaire and the immediate post-test are exported here. The
-resulting retention scores are still available in
-`participants_consolidated.csv` (`score_retention`), but the instrument
-(question wording) itself is not present in this repository. The
-instrument for the open-ended UX questions answered in
-`participants_consolidated.csv` (`q_overall_experience` and related columns)
-is likewise not present in this file.
+pre-questionnaire and the immediate post-test are exported here, since the
+retention test was not administered through the Searchat Behavior
+platform. Its item wording and item-level correspondence with the
+immediate post-test are documented in `assessments.md`; the resulting
+scores are in `participants_consolidated.csv` (`score_retention`).
+
+The open-ended UX questionnaire ("Como você descreveria sua
+experiência...", etc.) was **not administered through the Searchat
+Behavior platform**, so it has no survey block in this file by design. Its
+answers were collected separately and consolidated into the
+`q_overall_experience`, `q_knowledge_adequacy`, `q_interaction_strategy`,
+and `q_additional_comments` columns of `participants_consolidated.csv`
+(documented below).
 
 The Socratic system prompt in this file (`systemInstruction`) is in
 Portuguese, as it was actually used in the study. `prompt.md` at the
 repository root is the English translation presented in the paper.
+
+### `assessments.md`
+
+Documents both assessment instruments (immediate post-test and delayed
+retention test): 10 open-ended questions each, in Portuguese, scored with a
+three-point rubric (0 = incorrect, 1 = partially correct, 2 = fully
+correct) and normalized to [0, 1] for `score_immediate` / `score_retention`
+in `participants_consolidated.csv`. Includes the item-level correspondence
+table between the two instruments — the retention test rephrases each
+post-test question while preserving conceptual equivalence.
 
 ### `participants_consolidated.csv`
 
