@@ -1,0 +1,512 @@
+experiment:
+  name: >-
+    Aprendendo Conceitos de Orientação a Objetos com auxílio da Inteligência
+    Artificial
+  summary: >-
+    <p>A Inteligência Artificial tem sido cada vez mais utilizada como
+    ferramenta de apoio ao aprendizado permitindo que pessoas explorem novos
+    conteúdos de forma interativa e no seu próprio ritmo.</p><p>Nesta atividade,
+    você irá explorar conceitos fundamentais de orientação a objetos utilizando
+    um sistema de chat com inteligência artificial disponibilizado dentro deste
+    sistema.</p><p><br></p><p>Ao final seu objetivo é aprender o máximo possível
+    sobre o conceito de <strong>Herança, Polimorfismo e Classes
+    Abstratas</strong>. Você pode investigar diferentes aspectos do conteúdo de
+    acordo com o seu interesse e com o que for aprendendo no decorrer da
+    interação. Não há um caminho único ou sequência obrigatória, você é livre
+    para fazer perguntas, solicitar explicações, pedir exemplos e avançar
+    conforme sua curiosidade e interesse.</p><p><br></p><p>Durante a atividade,
+    você deverá utilizar exclusivamente a interface de chat deste sistema. Ou
+    seja, o uso de materiais externos, como mecanismos de busca (ex.: Google),
+    outras ferramentas de chat, vídeos, aulas online ou livros, <strong>não é
+    permitido</strong>, pois o foco do estudo é compreender o aprendizado a
+    partir da interação com este sistema.</p><p><br></p><p><strong style="color:
+    rgb(68, 68, 68);">Vocês têm 1h30 para terminar a etapa de exploração.
+    </strong>Ao final da atividade, você deverá <strong>realizar uma atividade
+    sobre o que aprendeu</strong> ao longo do estudo.</p>
+  typeExperiment: between-subject
+  betweenExperimentType: random
+  icf:
+    title: TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO (TCLE)
+    description: >-
+      <h3>Título da Pesquisa:</h3><p><strong>Aprendendo Conceitos de Orientação
+      a Objetos com auxílio da Inteligência
+      Artificial</strong></p><p><strong>Pesquisador(es)
+      Responsável(is):</strong></p><p>Thiago José Lopes</p><p>Yeshuá Silveira de
+      Souza Siqueira</p><p>Jairo Francisco de Souza</p><p>Marcelo de Oliveira
+      Costa Machado</p><p><br></p><p>Instituição: <strong>Universidade Federal
+      de Juiz de Fora </strong></p><p><br></p><p><strong>Contato dos
+      Pesquisadores:</strong></p><p><span style="color: rgb(68, 68,
+      68);">thiago.jose@estudante.ufjf.br</span></p><p><span style="color:
+      rgb(68, 68, 68);">yeshua@estudante.ufjf.br</span></p><p><span
+      style="color: rgb(68, 68, 68);">jairo.souza@ufjf.br</span></p><p><span
+      style="color: rgb(68, 68,
+      68);">marcelo.machado@ufjf.br</span></p><p><br></p><h3>1. Apresentação da
+      Pesquisa</h3><p>Você está sendo convidado(a) a participar de uma pesquisa
+      científica que investiga como pessoas aprendem novos conteúdos por meio da
+      interação com sistemas de inteligência artificial baseados em
+      chat.</p><p>Sua participação é voluntária e você poderá desistir a
+      qualquer momento, sem qualquer prejuízo.</p><h3>2. Objetivo da
+      Pesquisa</h3><p>O objetivo deste estudo é analisar como indivíduos
+      aprendem conceitos básicos orientação a objetos utilizando exclusivamente
+      a interação com um sistema conversacional baseado em inteligência
+      artificial.</p><h3>3. Procedimentos</h3><p>Caso aceite participar, você
+      realizará as seguintes atividades:</p><ul><li>Responder a um questionário
+      inicial sobre seu perfil e conhecimentos prévios</li><li>Participar de uma
+      sessão de aprendizagem com duração de até 2 horas utilizando um sistema de
+      chat com inteligência artificial</li><li>Responder a um questionário final
+      sobre sua experiência e o conteúdo aprendido</li></ul><p>Durante a
+      atividade, sua interação com o sistema poderá ser registrada para fins de
+      análise.</p><h3>4. Riscos e Desconfortos</h3><p>Os riscos envolvidos nesta
+      pesquisa são considerados mínimos, podendo incluir:</p><ul><li>Cansaço
+      mental devido ao tempo de atividade</li><li>Dificuldade ou frustração
+      durante o processo de aprendizagem</li></ul><p>Você poderá interromper sua
+      participação a qualquer momento, caso se sinta desconfortável.</p><h3>5.
+      Benefícios</h3><p>Os possíveis benefícios incluem:</p><ul><li>Aprendizado
+      de conceitos importantes de orientação a objetos</li><li>Contribuição para
+      pesquisas nas áreas de educação e inteligência artificial</li></ul><p>Não
+      há garantia de benefícios diretos.</p><h3>6. Confidencialidade e Uso dos
+      Dados</h3><ul><li>Os dados coletados serão tratados de forma
+      confidencial</li><li>Nenhuma informação que permita sua identificação será
+      divulgada</li><li>Os dados poderão incluir respostas aos questionários e
+      interações com o sistema</li><li>As informações serão utilizadas
+      exclusivamente para fins acadêmicos e científicos</li></ul><h3>7.
+      Participação Voluntária e Direito de Desistência</h3><p>Sua participação é
+      totalmente voluntária.</p><p>Você pode recusar participar ou desistir a
+      qualquer momento, sem qualquer penalização ou prejuízo.</p><h3>8.
+      Esclarecimentos e Contato</h3><p>Caso tenha dúvidas sobre a pesquisa, você
+      poderá entrar em contato com a equipe de pesquisadores por meio dos
+      contatos informados acima.</p><h3>9. Consentimento</h3><p>Ao prosseguir
+      com a participação neste estudo, você declara que:</p><ul><li>Leu e
+      compreendeu as informações apresentadas neste termo</li><li>Teve a
+      oportunidade de esclarecer dúvidas</li><li>Concorda voluntariamente em
+      participar da pesquisa</li></ul>
+  surveys:
+    - name: Mostre o que você aprendeu!
+      title: Mostre o que você aprendeu!
+      description: >-
+        Por favor, não utilize nenhuma ferramenta externa para auxiliar a
+        responder as perguntas. Aqui você deverá mostrar o que aprendeu, ou não,
+        sobre o conteúdo proposto.
+      questions:
+        - id: f47444d5-9d57-45db-94c6-ce51b4ab8cea
+          type: open
+          options: []
+          hasscore: false
+          required: true
+          statement: Explique com suas palavras o que é herança em orientação a objetos
+        - id: 4c0d02c3-523c-4c05-9e31-63e926339907
+          type: open
+          options: []
+          hasscore: false
+          required: true
+          statement: >-
+            Qual é a principal vantagem do uso de herança em programação
+            orientada a objetos?
+        - id: afddad20-8c80-473f-895b-b253caf32b27
+          type: open
+          options: []
+          hasscore: false
+          required: true
+          statement: >-
+            Dê um exemplo de um cenário em que herança poderia ser utilizada.
+            Explique quais classes poderiam participar da hierarquia.
+        - id: 4f4f5fc2-323c-4022-8362-78ecbac8a34a
+          type: open
+          options: []
+          hasscore: false
+          required: true
+          statement: >-
+            Explique por que nem toda relação entre classes deve utilizar
+            herança.
+        - id: 06ef697d-4caa-49e2-90c0-aa6ed6aaaae3
+          type: open
+          options: []
+          hasscore: false
+          required: true
+          statement: Explique o que é polimorfismo em orientação a objetos.
+        - id: d83aa687-1f8e-4c06-bbe6-4edbb713b8b2
+          type: open
+          options: []
+          hasscore: false
+          required: true
+          statement: Como herança e polimorfismo estão relacionados?
+        - id: f84a5570-3229-468a-ba7d-0fac54666337
+          type: open
+          options: []
+          hasscore: false
+          required: true
+          statement: O que é uma classe abstrata?
+        - id: 9de5aa03-62e9-4101-82ef-6c6d3e6ee135
+          type: open
+          options: []
+          hasscore: false
+          required: true
+          statement: Explique o que é um método abstrato e por que ele é utilizado.
+        - id: 89b53346-6aa0-4310-8b3f-3c9182e845d2
+          type: open
+          options: []
+          hasscore: false
+          required: true
+          statement: Qual é a diferença entre uma classe abstrata e uma classe comum?
+        - id: cc5ce5e8-3505-4405-b416-adb8c26cf01e
+          type: open
+          options: []
+          hasscore: false
+          required: true
+          statement: Uma classe abstrata pode existir sem métodos abstratos? Explique.
+      type: post
+      uniqueAnswer: true
+      required: true
+    - name: Questionário
+      title: Questionário
+      description: >-
+        Clique no botão “Entrar” para acessar o questionário e responda
+        atentamente a cada uma das questões.
+      questions:
+        - id: 7453016f-e202-4959-902e-4e090d2e0014
+          type: open
+          options: []
+          hasscore: false
+          required: true
+          statement: 'Nome completo:'
+        - id: 09534386-9731-41ae-b7a6-c83e3bbd30fc
+          type: open
+          options: []
+          hasscore: false
+          required: true
+          statement: 'Matrícula:'
+        - id: af75e4df-6748-480a-9c21-7650b3c3f9e8
+          type: multiple-choices
+          options:
+            - id: 9abe5e21-e1ef-462b-bd73-f709e74b4545
+              score: 0
+              hassub: false
+              statement: 18 a 24
+            - id: 9d767cd5-7f46-4cca-b626-14ee67d0c11b
+              score: 0
+              hassub: false
+              statement: 25 a 34
+            - id: a6e567f9-a651-4e7e-98fc-c88325224cda
+              score: 0
+              hassub: false
+              statement: 35 a 44
+            - id: 6338622d-3965-41df-b79e-81d46ac35662
+              score: 0
+              hassub: false
+              statement: 45 a 54
+            - id: 368336c1-a5c7-4738-b4fd-8fa5e9bc760a
+              score: 0
+              hassub: false
+              statement: 54 ou mais
+          hasscore: false
+          required: true
+          statement: 'Idade:'
+        - id: 8a40d5a0-a544-40ec-99b5-a40ea584b95b
+          type: open
+          options: []
+          hasscore: false
+          required: true
+          statement: 'Curso:'
+        - id: 18603689-7ab1-4280-82d7-64d6c62505ff
+          type: multiple-choices
+          options:
+            - id: 33a3d7d4-02f1-4da8-be9a-979a673e1f0c
+              score: 0
+              hassub: false
+              statement: Não
+            - id: c1bdb72a-5528-4778-aec6-c792f019ef16
+              score: 0
+              hassub: false
+              statement: Muito pouco
+            - id: c2fff30b-7d51-415d-a9cf-c5b7623e9c53
+              score: 0
+              hassub: false
+              statement: Sim, em aulas
+            - id: 1fa6f1c8-5158-4572-a5db-3421eaa9af81
+              score: 0
+              hassub: false
+              statement: Sim, em projetos pessoais ou profissionais
+          hasscore: false
+          required: true
+          statement: Você já estudou orientação a objetos anteriormente?
+        - id: 86ef467b-0f8e-47da-abb7-bc5b0d2d8810
+          type: multiple-choices
+          options:
+            - id: 72fb9876-d41a-420c-a4ec-155c8d869e51
+              score: 0
+              hassub: false
+              statement: Discordo totalmente
+            - id: d805c241-00bd-4c55-be69-df428aebcc93
+              score: 0
+              hassub: false
+              statement: Discordo parcialmente
+            - id: 0d263e7a-404b-4a0f-9290-093cc043a9a6
+              score: 0
+              hassub: false
+              statement: Neutro
+            - id: ffb3fbb6-191f-4326-a593-8e445fd10074
+              score: 0
+              hassub: false
+              statement: Concordo parcialmente
+            - id: c1c51686-bd35-4fc4-951a-e8621f94d5e8
+              score: 0
+              hassub: false
+              statement: Concordo totalmente
+          hasscore: false
+          required: true
+          statement: >-
+            Avalie seu nível de concordância com a afirmação: Eu tenho
+            conhecimento sobre herança em orientação a objetos.
+        - id: 89cf3b42-02c2-44c2-a77b-6dfc59c48428
+          type: multiple-choices
+          options:
+            - id: d970ed3c-2406-4884-a1f9-5faa055c2687
+              score: 0
+              hassub: false
+              statement: Discordo totalmente
+            - id: 82afe0a3-2434-45c7-9c72-8a8f4121f309
+              score: 0
+              hassub: false
+              statement: Discordo parcialmente
+            - id: 8ae7ef9f-8739-4f71-a345-d980b3b8d034
+              score: 0
+              hassub: false
+              statement: Neutro
+            - id: 2319fb2f-9e95-4575-ade1-04102452377b
+              score: 0
+              hassub: false
+              statement: Concordo parcialmente
+            - id: 6882846d-668b-475f-bb26-fed20fdc29e9
+              score: 0
+              hassub: false
+              statement: Concordo totalmente
+          hasscore: false
+          required: true
+          statement: >-
+            Avalie seu nível de concordância com a afirmação: Eu tenho
+            conhecimento sobre polimorfismo em orientação a objetos.
+        - id: b700d719-b357-4b3f-a583-1c9d5a239345
+          type: multiple-choices
+          options:
+            - id: 447f21d9-d44d-4447-a529-a328fa0ac59a
+              score: 0
+              hassub: false
+              statement: Discordo totalmente
+            - id: 6ec4b04f-5e47-40f6-aea2-c361703ed70c
+              score: 0
+              hassub: false
+              statement: Discordo parcialmente
+            - id: eb3610b9-7d07-40cb-96dd-0e8efeaba571
+              score: 0
+              hassub: false
+              statement: Neutro
+            - id: 5d93cd45-0c51-434f-9b37-95e47293c487
+              score: 0
+              hassub: false
+              statement: Concordo parcialmente
+            - id: 7c0feb91-9376-4db3-b431-d7deabbe26fd
+              score: 0
+              hassub: false
+              statement: Concordo totalmente
+          hasscore: false
+          required: true
+          statement: >-
+            Avalie seu nível de concordância com a afirmação: Eu tenho
+            conhecimento sobre classes abstratas em orientação a objetos.
+      type: pre
+      uniqueAnswer: true
+      required: true
+  tasks:
+    - title: (N) Herança, Polimorfismo e Classes Abstratas
+      summary: Herança, Polimorfismo e Classes Abstratas
+      description: >-
+        <p>Nesta atividade, você irá explorar conceitos importantes sobre a
+        disciplina de orientação a objetos: <strong>herança, polimorfismo e
+        classes abstratas</strong>. Para isso, ao iniciar esta tarefa você
+        deverá utilizar o ChatBot para te auxiliar no aprendizado desses
+        conceitos. Não tem uma receita de bolo, apenas utilize da maneira mais
+        natural possível, bem como você faria para aprender sobre qualquer
+        conteúdo que você ainda não tem conhecimento: utilize o tempo que for
+        necessário.</p><p><br></p><p>Clique no botão “Iniciar” para começar a
+        interagir com a ferramenta de Chat. Atenção, no canto superior esquerdo
+        você verá dois botões. O primeiro serve para você rever estas instruções
+        sempre que achar necessário. O segundo serve para você indicar que
+        finalizou a tarefa, ou seja, serve para você indicar que já se sente
+        satisfeito com o aprendizado adquirido.</p><p><br></p><p>Bons
+        estudos!</p>
+      rule_type: score
+      max_score: 0
+      min_score: 0
+      search_source: llm
+      survey_id: null
+      search_model: openai/gpt-4.1
+      provider_config:
+        modelProvider: openai
+        model: openai/gpt-4.1
+    - title: (S) Herança, Polimorfismo e Classes Abstratas
+      summary: Herança, Polimorfismo e Classes Abstratas
+      description: >-
+        <p>Nesta atividade, você irá explorar conceitos importantes sobre a
+        disciplina de orientação a objetos: <strong>herança, polimorfismo e
+        classes abstratas</strong>. Para isso, ao iniciar esta tarefa você
+        deverá utilizar o ChatBot para te auxiliar no aprendizado desses
+        conceitos. Não tem uma receita de bolo, apenas utilize da maneira mais
+        natural possível, bem como você faria para aprender sobre qualquer
+        conteúdo que você ainda não tem conhecimento: utilize o tempo que for
+        necessário.</p><p><br></p><p>Clique no botão “Iniciar” para começar a
+        interagir com a ferramenta de Chat. Atenção, no canto superior esquerdo
+        você verá dois botões. O primeiro serve para você rever estas instruções
+        sempre que achar necessário. O segundo serve para você indicar que
+        finalizou a tarefa, ou seja, serve para você indicar que já se sente
+        satisfeito com o aprendizado adquirido.</p><p><br></p><p>Bons
+        estudos!</p>
+      rule_type: score
+      max_score: 0
+      min_score: 0
+      search_source: llm
+      survey_id: null
+      search_model: openai/gpt-4.1
+      systemInstruction: >-
+        Você é um tutor socrático. Seu objetivo é ajudar o estudante a pensar
+        por conta própria, conduzindo a conversa de forma natural.
+
+        Diretrizes Gerais: 
+
+        * Priorize levar o estudante a construir o raciocínio 
+
+        * Priorize perguntas que estimulem reflexão e se conectem diretamente ao
+        que o estudante disse
+
+        * Evite perguntas genéricas ou fora de contexto
+
+        * Adapte-se ao nível do estudante
+
+        * Certifique-se que o conteúdo programático sobre o assunto seja coberto
+        no decorrer da conversa
+
+
+        Prioridade importante: 
+
+        * Se o estudante fizer uma pergunta direta, responda primeiro de forma
+        clara 
+
+        * Só depois, se fizer sentido, faça uma pergunta para aprofundar
+
+
+        Diagnóstico pedagógico: 
+
+        * Sempre avalie se a dúvida do estudante depende de conceitos mais
+        básicos 
+
+        * Se necessário, redirecione o foco para esses pré-requisitos antes de
+        explicar 
+
+        * Use transições como: "Antes de entender sobre X, precisamos antes
+        entender sobre Y." 
+
+        * Pergunte ao estudante sobre esse conhecimento prévio antes de explicar
+
+
+        Quando explicar: 
+
+        * Quando o estudante pedir 
+
+        * Quando houver confusão 
+
+        * Quando a conversa travar
+
+
+        Como explicar: 
+
+        * Seja didático 
+
+        * Use analogias quando útil, mas sem forçar 
+
+
+        Fluxo da conversa: 
+
+        * Priorize naturalidade acima de regras rígidas 
+
+        * Não siga um roteiro fixo; reaja ao contexto 
+
+        * Não faça perguntas se o estudante ainda está confuso — primeiro
+        esclareça
+
+
+        Equilíbrio: 
+
+        * Combine perguntas e explicações de forma fluida, não mecânica
+      provider_config:
+        modelProvider: openai
+        model: openai/gpt-4.1
+        systemInstruction: >-
+          Você é um tutor socrático. Seu objetivo é ajudar o estudante a pensar
+          por conta própria, conduzindo a conversa de forma natural.
+
+          Diretrizes Gerais: 
+
+          * Priorize levar o estudante a construir o raciocínio 
+
+          * Priorize perguntas que estimulem reflexão e se conectem diretamente
+          ao que o estudante disse
+
+          * Evite perguntas genéricas ou fora de contexto
+
+          * Adapte-se ao nível do estudante
+
+          * Certifique-se que o conteúdo programático sobre o assunto seja
+          coberto no decorrer da conversa
+
+
+          Prioridade importante: 
+
+          * Se o estudante fizer uma pergunta direta, responda primeiro de forma
+          clara 
+
+          * Só depois, se fizer sentido, faça uma pergunta para aprofundar
+
+
+          Diagnóstico pedagógico: 
+
+          * Sempre avalie se a dúvida do estudante depende de conceitos mais
+          básicos 
+
+          * Se necessário, redirecione o foco para esses pré-requisitos antes de
+          explicar 
+
+          * Use transições como: "Antes de entender sobre X, precisamos antes
+          entender sobre Y." 
+
+          * Pergunte ao estudante sobre esse conhecimento prévio antes de
+          explicar
+
+
+          Quando explicar: 
+
+          * Quando o estudante pedir 
+
+          * Quando houver confusão 
+
+          * Quando a conversa travar
+
+
+          Como explicar: 
+
+          * Seja didático 
+
+          * Use analogias quando útil, mas sem forçar 
+
+
+          Fluxo da conversa: 
+
+          * Priorize naturalidade acima de regras rígidas 
+
+          * Não siga um roteiro fixo; reaja ao contexto 
+
+          * Não faça perguntas se o estudante ainda está confuso — primeiro
+          esclareça
+
+
+          Equilíbrio: 
+
+          * Combine perguntas e explicações de forma fluida, não mecânica

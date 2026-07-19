@@ -1,0 +1,20 @@
+participant_id,group,category,evidence
+S1,S,Aceitação positiva da ferramenta,Tive uma experiência muito boa ao me comunicar com o chat.
+S4,S,Aceitação positiva da ferramenta,"Foi bastante positiva, deu para esclarecer minhas dúvidas."
+T1,T,Aceitação positiva da ferramenta,"Muito útil, ferramenta bem responsiva."
+T3,T,Aceitação positiva da ferramenta,Muito boa [...] consegui aprender praticamente tudo.
+T6,T,Aceitação positiva da ferramenta,"Achei bem legal, interessante e prático."
+S3,S,Atribuição de responsabilidade pelo aprendizado,Ela deixa solta para o aluno guiar a busca do conhecimento. Acredito que ela deveria me guiar nos tópicos pré-estabelecidos pelo educador.
+T2,T,Atribuição de responsabilidade pelo aprendizado,Fica sob completa responsabilidade do usuário [...] deve saber as melhores possibilidades para usar de prompt.
+T5,T,Atribuição de responsabilidade pelo aprendizado,Ter conhecimento pra responder as perguntas depende mais de fazer as perguntas certas.
+T6,T,Atribuição de responsabilidade pelo aprendizado,Para tirar o 100% a pessoa deve saber minimamente o que está estudando.
+S1,S,Natureza da interação percebida,Ao final da resposta ele sempre trazia uma pergunta pra ver se eu realmente tinha entendido a matéria.
+S5,S,Natureza da interação percebida,Ela tinha memória das mensagens já enviadas e com isso ia me dando respostas melhores a cada prompt.
+S6,S,Natureza da interação percebida,A inteligência artificial se adaptou à linguagem solicitada.
+T5,T,Natureza da interação percebida,"Achei extremamente comum, bom igual GPT, Gemini etc."
+T6,T,Natureza da interação percebida,Direta e prática.
+S1,S,Percepção do papel pedagógico do chatbot,As respostas que o chat me dava me guiavam de uma forma muito boa pro aprendizado.
+S3,S,Percepção do papel pedagógico do chatbot,Ela sempre trouxe exemplos [...] ou mudava a forma quando eu não entendia.
+S6,S,Percepção do papel pedagógico do chatbot,A dinâmica da interação foi como uma conversa com um professor. Os conteúdos ficaram bem amarrados entre si.
+T1,T,Percepção do papel pedagógico do chatbot,Bem rápida e direta.
+T4,T,Percepção do papel pedagógico do chatbot,Respondia minhas perguntas de maneira direta e exemplificando de maneira bem simples.
