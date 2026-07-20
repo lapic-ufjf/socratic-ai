@@ -44,9 +44,14 @@ exactly). The notebook computes descriptive statistics, Cliff's delta,
 between-group Mann-Whitney U tests, within-group Wilcoxon signed-rank tests,
 and produces the individual pre/post difference diagram used in the paper.
 
-## Authors and affiliation
+## Citation
 
-Thiago José Lopes, Yeshuá Silveira de Souza Siqueira, Jairo Francisco de
-Souza, Marcelo de Oliveira Costa Machado
-
-LApIC, Universidade Federal de Juiz de Fora (UFJF), Brazil
+```bibtex
+@inproceedings{lopes2026traditional,
+  title={Traditional vs. Socratic: How Chatbot Interaction Strategies Shape Self-Directed Learning?},
+  author={Lopes, Thiago J and Siqueira, Yeshúa and de Souza, Jairo F and Machado, Marcelo},
+  booktitle={Simp{\'o}sio Brasileiro de Inform{\'a}tica na Educa{\c{c}}{\~a}o (SBIE)},
+  year={2026},
+  organization={SBC}
+}
+```
