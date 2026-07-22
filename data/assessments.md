@@ -10,7 +10,7 @@ The immediate post-test is also included in `experiment_config.yaml` (survey
 later, rephrased each question while preserving conceptual equivalence; the
 side-by-side table below shows the item-level correspondence.
 
-| # | Pós-teste imediato | Teste de retenção (1 semana depois) |
+| # | Immediate post-test (pt-BR) | Delayed retention test, one week later (pt-BR) |
 |---|---|---|
 | 1 | Explique com suas palavras o que é herança em orientação a objetos. | Descreva, com suas próprias palavras, o conceito de herança na programação orientada a objetos. |
 | 2 | Qual é a principal vantagem do uso de herança em programação orientada a objetos? | Quais benefícios a herança pode trazer para o desenvolvimento de software orientado a objetos? |

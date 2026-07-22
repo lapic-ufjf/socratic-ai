@@ -1,16 +1,18 @@
-# Codebook — Análise Qualitativa
+# Codebook — Qualitative Analysis
 
-Esquema de codificação desenvolvido indutivamente para a análise das transcrições
-(`session_transcripts_coded.csv`). Contém duas classificações:
+Coding scheme developed inductively for the analysis of the session transcripts
+(`session_transcripts_coded.csv`). It contains two classifications:
 
-1. **Códigos interpretativos** — reportados no artigo (Tabelas 4 e 5), aplicados na coluna
-   `codigos interpretativos`.
-2. **Tipos de enunciado** — classificação descritiva complementar, não reportada no artigo,
-   aplicada na coluna `codigo descritivo`.
+1. **Interpretive codes** — reported in the paper (Tables 4 and 5), applied in the
+   `interpretive_codes` column.
+2. **Utterance types** — complementary descriptive classification, not reported in the
+   paper, applied in the `utterance_type` column.
 
-Correspondência com os nomes em inglês usados no artigo:
+> **Note on language.** The study was conducted in Portuguese, so the transcripts and the
+> code labels inside the CSV files are in Portuguese (column headers are in English). The
+> table below maps each label as it appears in the data to the name used in the paper.
 
-| Código (português) | Code (paper) |
+| Label in the CSV (pt-BR) | Code (paper) |
 |---|---|
 | Elaboração Ativa | Active Elaboration |
 | Sinalização de Dificuldade | Difficulty Signaling |
@@ -22,71 +24,75 @@ Correspondência com os nomes em inglês usados no artigo:
 
 ---
 
-## 1. Códigos interpretativos
+## 1. Interpretive codes
 
-### Elaboração Ativa
-**O que é?** O aluno produz conteúdo novo a partir do que recebeu.
+### Active Elaboration
+**What is it?** The learner produces new content from what they received.
 
-**Como reconhecer?** Pelo menos uma destas variantes: reformulação com palavras próprias,
-exemplo de contexto próprio, síntese comparativa, hipótese testável sobre comportamento do
-código, conexão entre conceitos, ancoragem em conhecimento prévio.
+**How to recognize it?** At least one of these variants: rephrasing in their own words, an
+example from their own context, a comparative synthesis, a testable hypothesis about code
+behavior, a connection between concepts, anchoring in prior knowledge.
 
-### Sinalização de Dificuldade
-**O que é?** O aluno indica que não compreendeu algo.
+### Difficulty Signaling
+**What is it?** The learner indicates that they did not understand something.
 
-**Como reconhecer?** Declaração explícita de não-compreensão ou pedido de reexplicação sem
-reformulação prévia. *Localizada*: o aluno nomeia o ponto específico. *Não-localizada*: sabe
-que não entendeu, não sabe o quê.
+**How to recognize it?** An explicit statement of non-understanding or a request for
+re-explanation without prior rephrasing. *Localized*: the learner names the specific point.
+*Non-localized*: they know they did not understand, but not what.
 
-### Confirmação Não-Elaborada
-**O que é?** Sinalização de compreensão sem demonstração comportamental do conteúdo.
+### Unelaborated Acknowledgment
+**What is it?** A signal of understanding without behavioral demonstration of the content.
 
-**Como reconhecer?** O turno não produz conteúdo novo: não reformula, não exemplifica, não
-pergunta a partir do que recebeu. Respostas como "entendi", "ok", "faz sentido", aprovação
-do método.
+**How to recognize it?** The turn produces no new content: it does not rephrase, exemplify,
+or ask questions building on what was received. Responses such as "got it", "ok", "makes
+sense", approval of the method.
 
-### Resistência ao Método
-**O que é?** O aluno recusa ou questiona a estratégia pedagógica do modelo, não o conteúdo.
+### Method Resistance
+**What is it?** The learner refuses or questions the model's pedagogical strategy, not its
+content.
 
-**Como reconhecer?** Variantes: passiva (escolhe explicação direta quando oferecida opção),
-explícita (verbaliza recusa da abordagem), crítica conceitual (questiona insuficiência do
-exemplo), crítica metodológica (distingue exemplo pedagógico de uso real).
+**How to recognize it?** Variants: passive (chooses a direct explanation when offered the
+option), explicit (verbalizes refusal of the approach), conceptual critique (questions the
+insufficiency of an example), methodological critique (distinguishes a pedagogical example
+from real-world use).
 
-### Regulação da Sessão
-**O que é?** O aluno toma ou cede controle sobre a direção da conversa.
+### Session Regulation
+**What is it?** The learner takes or cedes control over the direction of the conversation.
 
-**Como reconhecer?** Abertura com agenda (define o que quer aprender), redirecionamento por
-iniciativa (muda de tópico sem pergunta do modelo), avaliação e aprovação do método,
-passagem de controle ao modelo.
+**How to recognize it?** Opening with an agenda (defines what they want to learn),
+self-initiated redirection (changes topic without a question from the model), evaluation
+and approval of the method, handing control over to the model.
 
-### Metacognição Explícita
-**O que é?** O aluno monitora e verbaliza o próprio processo de aprendizagem.
+### Explicit Metacognition
+**What is it?** The learner monitors and verbalizes their own learning process.
 
-**Como reconhecer?** Verbalizações sobre o próprio estado cognitivo: reconhecer que
-esqueceu, avaliar se sabe o suficiente para uma tarefa, monitorar inconsistências entre
-turnos, avaliar o próprio nível.
+**How to recognize it?** Verbalizations about their own cognitive state: acknowledging they
+forgot something, assessing whether they know enough for a task, monitoring inconsistencies
+across turns, evaluating their own level.
 
-### Uso Instrumental do Modelo
-**O que é?** O aluno usa o modelo como referência técnica pontual, não como tutor sequencial.
+### Instrumental Use of the Model
+**What is it?** The learner uses the model as a punctual technical reference rather than as
+a sequential tutor.
 
-**Como reconhecer?** Pergunta de verificação de conhecimento prévio parcial — o aluno já tem
-uma hipótese e quer confirmar, não aprender do zero. Marcadores: "mesmo", "é isso?", "seria
-X?", ou formulação de hipótese antes da pergunta.
+**How to recognize it?** A verification question about partial prior knowledge — the learner
+already has a hypothesis and wants confirmation, not to learn from scratch. Markers (in
+Portuguese): "mesmo", "é isso?", "seria X?", or stating a hypothesis before the question.
 
-**O que não é?** Elaboração ativa com pedido de confirmação — a diferença está em se o
-conteúdo veio do modelo primeiro. No uso instrumental, o conteúdo veio do aluno.
+**What is it not?** Active elaboration with a request for confirmation — the difference lies
+in whether the content came from the model first. In instrumental use, the content came
+from the learner.
 
 ---
 
-## 2. Tipos de enunciado
+## 2. Utterance types
 
-| Tipo | Definição |
+| Type (label in the CSV) | Definition |
 |---|---|
-| Pergunta conceitual | O aluno quer entender o que é ou como funciona algo. O foco é no conceito. Ex: "o que é herança?", "como o polimorfismo funciona?" |
-| Pergunta procedimental | O aluno quer saber como fazer algo, ou pede uma demonstração prática. O foco é na execução. Ex: "me mostra um exemplo em código", "como eu implemento isso em Java?" |
-| Confirmação | O turno do aluno sinaliza recebimento sem fazer pergunta nem pedir nada. A resposta esperada do modelo é continuar ou avançar. Ex: "entendi", "ok", "certo". |
-| Mudança de assunto | O aluno introduz um tópico novo sem que o modelo tenha sugerido essa transição. O marcador é a quebra de continuidade temática por iniciativa do aluno. |
-| Saturação | O aluno sinaliza que terminou com aquele tópico e não quer mais avançar nele. |
-| Resposta a exercício | O aluno produz uma solução para uma tarefa proposta pelo modelo. |
-| Crítica metodológica | O aluno critica o comportamento do modelo de forma explícita. |
-| Instrução ao modelo | Turno em que o aluno dirige explicitamente o que quer que o modelo faça, sem ser uma pergunta nem uma resposta a exercício. |
+| Pergunta conceitual (conceptual question) | The learner wants to understand what something is or how it works. The focus is on the concept. E.g., "what is inheritance?", "how does polymorphism work?" |
+| Pergunta procedimental (procedural question) | The learner wants to know how to do something, or asks for a practical demonstration. The focus is on execution. E.g., "show me a code example", "how do I implement this in Java?" |
+| Confirmação (acknowledgment) | The learner's turn signals receipt without asking or requesting anything. The expected model response is to continue or move on. E.g., "got it", "ok", "right". |
+| Mudança de assunto (topic change) | The learner introduces a new topic without the model having suggested the transition. The marker is a break in thematic continuity initiated by the learner. |
+| Saturação (saturation) | The learner signals they are done with a topic and do not want to go further into it. |
+| Resposta a exercício (exercise answer) | The learner produces a solution to a task proposed by the model. |
+| Crítica metodológica (methodological critique) | The learner explicitly criticizes the model's behavior. |
+| Instrução ao modelo (instruction to the model) | A turn in which the learner explicitly directs what they want the model to do, without being a question or an exercise answer. |

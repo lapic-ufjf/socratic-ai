@@ -1,4 +1,4 @@
-participant_id,tarefa,papel,mensagem,codificacao aberta,codigos interpretativos,codigo descritivo,evidencia
+participant_id,taks,role,message,open_coding,interpretive_codes,utterance_type,evidence
 S4,"(S) Herança, Polimorfismo e Classes Abstratas",user,"me ensine de forma simples, os conceitos básicos de herança, polimorfismo e classes abstratas.",-usuario demonstra intenção de aprender os conteúdos do tópico do enunciado,Regulação da Sessão - Abertura com agenda,Mudança de assunto (inauguração do tópico),
 S4,"(S) Herança, Polimorfismo e Classes Abstratas",model,"Claro! Vou explicar cada conceito de forma simples, e depois podemos aprofundar, se quiser.
 
