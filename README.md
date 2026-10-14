@@ -49,8 +49,9 @@ and produces the individual pre/post difference diagram used in the paper.
 ```bibtex
 @inproceedings{lopes2026traditional,
   title={Traditional vs. Socratic: How Chatbot Interaction Strategies Shape Self-Directed Learning?},
-  author={Lopes, Thiago J and Siqueira, Yeshúa and de Souza, Jairo F and Machado, Marcelo},
+  author={Lopes, Thiago J and Siqueira, Yeshu{\'a} and de Souza, Jairo F and Machado, Marcelo},
   booktitle={Simp{\'o}sio Brasileiro de Inform{\'a}tica na Educa{\c{c}}{\~a}o (SBIE)},
+  pages={1943--1957},
   year={2026},
   organization={SBC}
 }
